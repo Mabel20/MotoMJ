@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1008946386096",
+    "firebase_url": "https://motomjbd.firebaseio.com",
+    "project_id": "motomjbd",
+    "storage_bucket": "motomjbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008946386096:android:180bae363adf5715",
+        "android_client_info": {
+          "package_name": "com.mabel.motomj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008946386096-mrse8n2h80a6auflrpo2hdvjnrultvta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mabel.motomj",
+            "certificate_hash": "662bdb765456d02b0e51f5484b0e06ecc187d1c7"
+          }
+        },
+        {
+          "client_id": "1008946386096-s5lkn3tiqei5i47mvlksf4iu16i8uniu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvZgAqGs79UsQJYd5i4K4MOh2DTE2P_LY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008946386096-s5lkn3tiqei5i47mvlksf4iu16i8uniu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

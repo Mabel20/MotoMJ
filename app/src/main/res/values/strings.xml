@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MotoMJ</string>
+    <string name="ventas_de_motos">Ventas de Motos</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="arranque">Arranque</string>
+    <string name="chasis">Chasis</string>
+    <string name="color">Color</string>
+    <string name="tipo_de_combustible">Tipo de combustible</string>
+    <string name="embrague">Embrague</string>
+    <string name="precio">Precio</string>
+    <string name="configuracion_del_motor">Configuracion del motor</string>
+    <string name="ingresar_productos">INGRESAR PRODUCTOS</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="todo">TODO</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="ingrese_la_cantidad">Ingrese la cantidad:</string>
+    <string name="vermiscompras">VER MIS COMPRAS</string>
+</resources>

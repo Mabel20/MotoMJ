@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffff"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imagen1"
+            android:layout_width="146dp"
+            android:layout_height="179dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/todo"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvmarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imagen1"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="113dp"
+            android:text="@string/marca"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvmodelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tvmarca"
+            android:layout_below="@+id/tvmarca"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/modelo"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvarranque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvmarca"
+            android:layout_below="@+id/tvmodelo"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/arranque"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvchasis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tvmarca"
+            android:layout_below="@+id/tvarranque"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/chasis"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tvmarca"
+            android:layout_below="@+id/tvchasis"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/color"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvtipcombus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvmarca"
+            android:layout_below="@+id/tvcolor"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tipo_de_combustible"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvembrague"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tvmarca"
+            android:layout_below="@+id/tvtipcombus"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/embrague"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvconfmotor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tvmarca"
+            android:layout_below="@+id/tvembrague"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/configuracion_del_motor"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvprecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tvmarca"
+            android:layout_below="@+id/tvconfmotor"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/precio"
+            android:textColor="#000" />
+
+        <ImageButton
+            android:id="@+id/ibfavorito"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imagen1"
+            android:tint="@color/colorAccent"
+            app:srcCompat="@drawable/ic_fvorite" />
+
+        <TextView
+            android:id="@+id/tvurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tvconfmotor"
+            android:layout_below="@+id/tvmodelo"
+            android:text="url"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
